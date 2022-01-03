@@ -1,0 +1,38 @@
+:root {
+  --primery-color: #757575;
+  --secondary-color: #212121;
+  --hover-main-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: var(--primery-color);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+
+/* ----------------Header---------- */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.logo-part {
+  color: var(--hover-main-color);
+}
+.nav-link {
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+.nav-link.current {
+  color: var(--hover-main-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-main-color);
+}
