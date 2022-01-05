@@ -18,10 +18,37 @@ body {
   list-style: none;
 }
 
-/* --------Button */
+/* --------Buttons */
 .btn {
+  font-size: 16px;
   cursor: pointer;
 }
+.hero-btn {
+  font-weight: 700;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  background-color: var(--hover-main-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--secondary-title-color);
+  background-color: var(--main-white-color);
+}
+.filter-btn {
+  line-height: 1.63;
+  font-weight: 500;
+  color: var(--secondary-title-color);
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+}
+.filter-btn:focus,
+.filter-btn:hover {
+  color: var(--main-white-color);
+  background-color: var(--hover-main-color);
+}
+
 /* ----------------Header---------- */
 
 .logo {
@@ -139,4 +166,10 @@ body {
   font-size: 16px;
   color: var(--primery-color);
   line-height: 1.88;
+}
+.address-city:hover,
+.address-city:focus,
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--hover-main-color);
 }
